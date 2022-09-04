@@ -1,0 +1,102 @@
+body{
+    font-family:'Baloo 2';
+    
+}
+
+#navbar{
+    /* height:200px; */
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    /* background-color: rgba(209, 95, 61, 0.2); */
+    
+}
+
+.home{
+    background: url("background.png") center center;
+    height: 500px;
+    /* position: absolute; */
+    top: 0px;
+    z-index: -1;
+}
+.home h1 {
+    position: absolute;
+    bottom: 280px;
+    left: 40px;
+}
+.home button{
+    position: absolute;
+    bottom: 240px ;
+    left: 40px;
+    color: black;
+    background-color: rgb(209, 146, 157);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+}
+.home button:hover{
+    color: rgb(183, 255, 255);
+    background-color: rgb(52, 49, 187);
+    
+}
+
+
+
+.logo{
+    /* height: 150px; */
+    width: 96px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin: 2px 3px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    /* text-decoration: none; */
+}
+#navbar ul li{
+    margin: 5px 15px;
+    font-size: larger;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(85, 45, 151);
+    /* border-bottom: 1px solid rgb(36, 88, 155); */
+    font-size: 21px;
+    font-style: bold;
+    font-size: larger;
+    
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color: rgb(217 22 217);
+    
+    border-bottom: 2px solid blue;
+    border-radius: 2px;
+    font-size: 22px;
+    
+}
+
+.row{
+    border: 2px solid rgb(77, 42, 233);
+    border-radius: 30px;
+    color: black;
+    font-size: large;
+}
+.col-md-4{
+    border: 2px solid rgb(77, 42, 233);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+

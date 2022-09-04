@@ -1,0 +1,59 @@
+body{
+    background: url("about.png");
+    background-size: cover;
+    color: black;
+    font-size: larger;
+    overflow: scroll;
+}
+#navbar{
+    /* height:200px; */
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    /* background-color: rgba(209, 95, 61, 0.2); */
+    
+}
+.logo{
+    /* height: 150px; */
+    width: 96px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin: 2px 3px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    /* text-decoration: none; */
+}
+#navbar ul li{
+    margin: 5px 15px;
+    font-size: larger;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(85, 45, 151);
+    /* border-bottom: 1px solid rgb(36, 88, 155); */
+    font-size: 21px;
+    font-style: bold;
+    font-size: larger;
+    
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color: rgb(217 22 217);
+    
+    border-bottom: 2px solid blue;
+    border-radius: 2px;
+    font-size: 22px;
+    
+}
+.container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 125px;
+}
